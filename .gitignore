@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+.localized
+
+# JetBrains/VSCode settings
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System-specific files
+~$*.docx
+
+# Optional: personal folders if accidentally tracked
+/Books/
+/Business File/
+/Fedex/
+/Job/
+/Personal/
+/TMP/
+/Uni/
+/resume-application/
+/nxgen/
+/ai-agent-aws/
+/chrome-extension-ai/

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+openai
+telegramify-markdown
+telegramify-markdown[mermaid]
+mangum
