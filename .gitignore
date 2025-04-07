@@ -13,15 +13,5 @@ __pycache__/
 # System-specific files
 ~$*.docx
 
-# Optional: personal folders if accidentally tracked
-/Books/
-/Business File/
-/Fedex/
-/Job/
-/Personal/
-/TMP/
-/Uni/
-/resume-application/
-/nxgen/
-/ai-agent-aws/
-/chrome-extension-ai/
+# env files
+.env
