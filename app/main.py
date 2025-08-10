@@ -90,7 +90,7 @@ async def telegram_webhook(request: Request):
 
             # Step 3: Send to GPT-4o Vision
             response = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-5-nano",
                 messages=[
                     {
                         "role": "system",
@@ -121,7 +121,7 @@ async def telegram_webhook(request: Request):
         elif text:
             # ✍️ Handle plain text math questions
             response = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-5-nano",
                 messages=[
                     {
                         "role": "system",
